@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HiFiBry</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+        header {
+            background-color: #000000;
+            color: #fff;
+            padding: 0.5rem 0;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 1rem;
+        }
+        .product-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 1rem;
+            overflow: hidden;
+            width: 200px; /* Ancho fijo */
+            height: 350px; /* Altura fija opcional */
+            display: flex;
+            flex-direction: column;
+        }
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+            flex: 1; /* Para que la imagen ocupe todo el espacio disponible */
+        }
+        .product-info {
+            padding: 1rem;
+            text-align: center;
+        }
+        .product-info h3 {
+            font-size: 1.2rem;
+            margin: 0.5rem 0;
+        }
+        .product-info p {
+            color: #888;
+            margin: 0.5rem 0;
+        }
+        .product-info a {
+            background-color: #333;
+            color: #fff;
+            display: block;
+            margin: 1rem 0 0;
+            padding: 0.5rem;
+            text-decoration: none;
+        }
+        .product-info a:hover {
+            background-color: #555;
+        }
+        .product-icons {
+            display: flex;
+            justify-content: space-around;
+            padding: 0.5rem 0;
+        }
+        .product-icons img {
+            width: 30px; /* Tamaño de los iconos, ajusta según sea necesario */
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="font-size: 4em;">HiFiBry</h1>
+    </header>
+
+    <div class="container">
+        <a href="sony wf1000xm5.html" style="text-decoration: none; color: inherit;">
+            <div class="product-card">
+                <img src="sony wf.png" alt="Sony Wf1000XM5">
+                <div class="product-info">
+                    <h3>Sony Wf1000XM5</h3>
+                    <p>$50.00</p>
+                    <div class="product-icons">
+                        <img src="bateria.png" alt="bateria" class="img-redimensionada">
+                        <img src="icono2.png" alt="Icono 2">
+                        <img src="icono3.png" alt="Icono 3">
+                        <img src="icono4.png" alt="Icono 4">
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="earpods 2 pro.html" style="text-decoration: none; color: inherit;">
+            <div class="product-card">
+                <img src="earpods 2 pro.png" alt="Audífono 2">
+                <div class="product-info">
+                    <h3>Audífono 2</h3>
+                    <p>$75.00</p>
+                    <div class="product-icons">
+                        <img src="icono1.png" alt="Icono 1">
+                        <img src="icono2.png" alt="Icono 2">
+                        <img src="icono3.png" alt="Icono 3">
+                        <img src="icono4.png" alt="Icono 4">
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="beats studio.html" style="text-decoration: none; color: inherit;">
+            <div class="product-card">
+                <img src="beats studio.png" alt="Audífono 3">
+                <div class="product-info">
+                    <h3>Audífono 3</h3>
+                    <p>$100.00</p>
+                    <div class="product-icons">
+                        <img src="icono1.png" alt="Icono 1">
+                        <img src="icono2.png" alt="Icono 2">
+                        <img src="icono3.png" alt="Icono 3">
+                        <img src="icono4.png" alt="Icono 4">
+                    </div>
+                </div>
+            </div>
+        </a>
+        <!-- Puedes agregar más productos de la misma manera -->
+    </div>
+</body>
+</html>
+
+
